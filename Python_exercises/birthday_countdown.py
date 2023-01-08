@@ -3,7 +3,7 @@ import datetime
 os.system("cls")#clean terminal
 
 
-def birthday_countdown(age, birthmonth, birthday):
+def birthday_countdown(birthmonth, birthday):
     today = datetime.datetime.now()
     birthday = datetime.datetime(today.year, birthmonth, birthday)
 
@@ -15,6 +15,6 @@ age = 30
 birthmonth = 8
 birthday = 2
 
-days_until_birthday = birthday_countdown(age, birthmonth, birthday)
+days_until_birthday = birthday_countdown(birthmonth, birthday)
 
 print(f"There are {days_until_birthday} days until birthday")

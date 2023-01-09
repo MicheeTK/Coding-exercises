@@ -17,15 +17,29 @@ class birthday_countdown:
 
 while True:
     try:
-        birthmonth = int(input("Enter your birth month: "))
-        birthday = int(input("Enter your birthday: "))
-    # except ValueError as month_er:
-    #     print(month_er)
+        birthmonth = int(input("\nEnter your birth month: "))
+        if birthmonth > 12 or birthmonth < 1:
+            print("\nThe birth month must be a number between 1...12")
+
+            program_exit_request = input('\nPress "c" to continue or any key to exit the program: ')
+            if program_exit_request == "c" or program_exit_request == "C" :
+                continue
+            else:
+                break
+
+        birthday = int(input("\nEnter your birthday: "))
+        if birthday > 31 or birthday < 1:
+            print("\nThe birthday must be a number between 1...31")
+
+            program_exit_request = input('\nPress "c" to continue or any key to exit the program: ')
+            if program_exit_request == "c" or program_exit_request == "C" :
+                continue
+            else:
+                break
     except:
-        print("\nThe input key(s) are not digits.Please enter your birth day and month digits.\n")
+        print("\nThe input key(s) are not digits.Please enter your birth day and month number.")
     else:
         Michee_birthday_countdown = birthday_countdown(birthday,birthmonth)
         days_until_birthday = Michee_birthday_countdown.compute_countdown()
-        print(f"There are {days_until_birthday} days until birthday")
-
+        print(f"\nThere are {days_until_birthday} days until birthday")
         break

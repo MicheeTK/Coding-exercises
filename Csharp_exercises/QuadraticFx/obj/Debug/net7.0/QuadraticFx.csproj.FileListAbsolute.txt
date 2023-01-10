@@ -1,0 +1,15 @@
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\bin\Debug\net7.0\QuadraticFx.exe
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\bin\Debug\net7.0\QuadraticFx.deps.json
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\bin\Debug\net7.0\QuadraticFx.runtimeconfig.json
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\bin\Debug\net7.0\QuadraticFx.dll
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\bin\Debug\net7.0\QuadraticFx.pdb
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\QuadraticFx.csproj.AssemblyReference.cache
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\QuadraticFx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\QuadraticFx.AssemblyInfoInputs.cache
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\QuadraticFx.AssemblyInfo.cs
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\QuadraticFx.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\QuadraticFx.dll
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\refint\QuadraticFx.dll
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\QuadraticFx.pdb
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\QuadraticFx.genruntimeconfig.cache
+C:\Users\User\Documents\0_Coding_practices\_Coding_exercises\Csharp_exercises\QuadraticFx\obj\Debug\net7.0\ref\QuadraticFx.dll

@@ -3,22 +3,50 @@ using System;
 
 class QuadraticFx {
     static void Main(){
-        FuncParameters(1,10,-24);
+
+        while (true) {
+            try{
+                SolveEqx();
+            }
+
+            catch {
+                Console.WriteLine("\nOne or more of the entered value is not a number.\n");
+                Console.WriteLine("Would you like to try again? [Y/N]");
+
+                string exitProgram = Console.ReadLine();
+
+                if (exitProgram == "Y" || exitProgram == "y") {
+                    continue;
+                }
+
+                else {
+                Environment.Exit(0);
+                }
+            }
+        }
     }
     
-     static void FuncParameters(float a, float b, float c){
+     static void SolveEqx(){
         //quadratic equation standard equation: x^2 + bx + c = 0
-        // float a, b, c;
+                Console.Write("\nEnter the value of the first constant: ");
+                var a = Convert.ToDouble(Console.ReadLine());
+
+                Console.Write("Enter the value of the second constant: ");
+                var b = Convert.ToDouble(Console.ReadLine());
+
+                Console.Write("Enter the value of the third constant: ");
+                var c = Convert.ToDouble(Console.ReadLine());
+
         double delta,x1, x2;
 
         delta = Math.Pow(b, 2) - (4*a*c);
 
     if ( a == 0) {
-        Console.WriteLine("The paramaters entered are not of a quadratic equation");
+        Console.WriteLine("\nThe paramaters entered are not of a quadratic equation.");
         }
 
     else if ( delta < 0){
-            Console.WriteLine("The solution to the parameters entered are outside of the scope of this application");
+            Console.WriteLine("\nThe solution to the parameters entered are outside of the scope of this application.\n");
         }
     else {
         x1 = (-b + Math.Sqrt(delta))/(2*a);

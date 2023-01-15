@@ -10,7 +10,7 @@ body {
   font-size: small;
 }
 
-.fav-movie-box {
+.fav-movie-container {
   width: 360px;
   height: 200px;
   margin: 100px auto;
@@ -21,12 +21,12 @@ body {
   border-radius: 10px;
 }
 
-.fav-movie-box > h1 {
+.fav-movie-container > h1 {
   margin-block: 10px;
   color: #fff;
 }
 
-.fav-movie-box li {
+.fav-movie-container li {
   list-style-type: none;
   background-color: whitesmoke;
   border-bottom: 1px solid black;

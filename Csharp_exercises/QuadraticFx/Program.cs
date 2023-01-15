@@ -13,7 +13,7 @@ class QuadraticFx {
                 Console.WriteLine("\nOne or more of the entered value is not a number.\n");
                 Console.WriteLine("Would you like to try again? [Y/N]");
 
-                string exitProgram = Console.ReadLine();
+                string? exitProgram = Console.ReadLine();
 
                 if (exitProgram == "Y" || exitProgram == "y") {
                     continue;

@@ -33,7 +33,7 @@ const celline = {
   bio: "Celline is awesome",
   info: () => {
     return `
-          infor for: ${profile.username}//Hard coding the object name isn't a good idea...
+          infor for: ${profile.username}
           Posts: ${profile.posts}
           Followers: ${profile.followers}
           Following: ${profile.following}
@@ -42,7 +42,10 @@ const celline = {
   },
 };
 
-const Paul = {
+cellineInfo = celline.info();
+console.log("Profile base object info:\n", cellineInfo);
+
+const paul = {
   username: "Paul",
   posts: 100,
   followers: 3997,
@@ -52,7 +55,7 @@ const Paul = {
   bio: "Paul is dope",
   info: () => {
     return `
-          infor for: ${profile.username}//Hard coding the object name isn't a good idea...
+          infor for: ${profile.username}
           Posts: ${profile.posts}
           Followers: ${profile.followers}
           Following: ${profile.following}
@@ -61,11 +64,10 @@ const Paul = {
   },
 };
 
-paulInfo = profile.info();
-
+paulInfo = paul.info();
 console.log("Profile base object info:\n", paulInfo);
 
-const Andrea = {
+const andrea = {
   username: "Andrea",
   posts: 69,
   followers: 997,
@@ -75,7 +77,7 @@ const Andrea = {
   bio: "Andrea is hot",
   info: () => {
     return `
-          infor for: ${profile.username}//Hard coding the object name isn't a good idea...
+          infor for: ${profile.username}
           Posts: ${profile.posts}
           Followers: ${profile.followers}
           Following: ${profile.following}
@@ -84,6 +86,6 @@ const Andrea = {
   },
 };
 
-andreaInfo = profile.info();
+andreaInfo = andrea.info();
 
-console.log("Profile base object info:\n", paulInfo);
+console.log("Profile base object info:\n", andreaInfo);

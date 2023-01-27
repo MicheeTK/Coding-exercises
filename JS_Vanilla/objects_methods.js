@@ -8,7 +8,7 @@ const profile = {
   bio: "Some information about the user",
   info: () => {
     return `
-          infor for: ${profile.username}
+          info for: ${profile.username}
           Posts: ${profile.posts}
           Followers: ${profile.followers}
           Following: ${profile.following}
@@ -33,7 +33,7 @@ const celline = {
   bio: "Celline is awesome",
   info: () => {
     return `
-          infor for: ${celline.username}
+          info for: ${celline.username}
           Posts: ${celline.posts}
           Followers: ${celline.followers}
           Following: ${celline.following}
@@ -55,7 +55,7 @@ const paul = {
   bio: "Paul is dope",
   info: () => {
     return `
-          infor for: ${paul.username}
+          info for: ${paul.username}
           Posts: ${paul.posts}
           Followers: ${paul.followers}
           Following: ${paul.following}
@@ -77,7 +77,7 @@ const andrea = {
   bio: "Andrea is hot",
   info: () => {
     return `
-          infor for: ${andrea.username}
+          info for: ${andrea.username}
           Posts: ${andrea.posts}
           Followers: ${andrea.followers}
           Following: ${andrea.following}

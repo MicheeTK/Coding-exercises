@@ -8,7 +8,7 @@ const profile = {
   bio: "Some information about the user",
   info: () => {
     return `
-          infor for: ${username}
+          infor for: ${username}//Gives an erro: "Uncaught ReferenceError: username is not defined"
           Posts: ${posts}
           Followers: ${followers}
           Following: ${following}

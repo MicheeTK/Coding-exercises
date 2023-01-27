@@ -33,11 +33,11 @@ const celline = {
   bio: "Celline is awesome",
   info: () => {
     return `
-          infor for: ${profile.username}
-          Posts: ${profile.posts}
-          Followers: ${profile.followers}
-          Following: ${profile.following}
-          Biography: ${profile.bio}
+          infor for: ${celline.username}
+          Posts: ${celline.posts}
+          Followers: ${celline.followers}
+          Following: ${celline.following}
+          Biography: ${celline.bio}
          `;
   },
 };
@@ -55,11 +55,11 @@ const paul = {
   bio: "Paul is dope",
   info: () => {
     return `
-          infor for: ${profile.username}
-          Posts: ${profile.posts}
-          Followers: ${profile.followers}
-          Following: ${profile.following}
-          Biography: ${profile.bio}
+          infor for: ${paul.username}
+          Posts: ${paul.posts}
+          Followers: ${paul.followers}
+          Following: ${paul.following}
+          Biography: ${paul.bio}
          `;
   },
 };
@@ -77,11 +77,11 @@ const andrea = {
   bio: "Andrea is hot",
   info: () => {
     return `
-          infor for: ${profile.username}
-          Posts: ${profile.posts}
-          Followers: ${profile.followers}
-          Following: ${profile.following}
-          Biography: ${profile.bio}
+          infor for: ${andrea.username}
+          Posts: ${andrea.posts}
+          Followers: ${andrea.followers}
+          Following: ${andrea.following}
+          Biography: ${andrea.bio}
          `;
   },
 };

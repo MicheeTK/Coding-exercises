@@ -7,13 +7,14 @@ const profile = {
   fullName: "user fullname",
   bio: "Some information about the user",
   info: () => {
+    //"this" is the correct way but doest work with the arrow function
     return `
-          info for: ${profile.username}
-          Posts: ${profile.posts}
-          Followers: ${profile.followers}
-          Following: ${profile.following}
-          Biography: ${profile.bio}
-         `; //Hard coding usinf the object name  isn't a good idea...
+          info for: ${this.username}
+          Posts: ${this.posts}
+          Followers: ${this.followers}
+          Following: ${this.following}
+          Biography: ${this.bio}
+         `;
   },
 };
 
@@ -33,11 +34,11 @@ const celline = {
   bio: "Celline is awesome",
   info: () => {
     return `
-          info for: ${celline.username}
-          Posts: ${celline.posts}
-          Followers: ${celline.followers}
-          Following: ${celline.following}
-          Biography: ${celline.bio}
+          info for: ${this.username}
+          Posts: ${this.posts}
+          Followers: ${this.followers}
+          Following: ${this.following}
+          Biography: ${this.bio}
          `;
   },
 };
@@ -55,11 +56,11 @@ const paul = {
   bio: "Paul is dope",
   info: () => {
     return `
-          info for: ${paul.username}
-          Posts: ${paul.posts}
-          Followers: ${paul.followers}
-          Following: ${paul.following}
-          Biography: ${paul.bio}
+          info for: ${this.username}
+          Posts: ${this.posts}
+          Followers: ${this.followers}
+          Following: ${this.following}
+          Biography: ${this.bio}
          `;
   },
 };
@@ -77,11 +78,11 @@ const andrea = {
   bio: "Andrea is hot",
   info: () => {
     return `
-          info for: ${andrea.username}
-          Posts: ${andrea.posts}
-          Followers: ${andrea.followers}
-          Following: ${andrea.following}
-          Biography: ${andrea.bio}
+          info for: ${this.username}
+          Posts: ${this.posts}
+          Followers: ${this.followers}
+          Following: ${this.following}
+          Biography: ${this.bio}
          `;
   },
 };

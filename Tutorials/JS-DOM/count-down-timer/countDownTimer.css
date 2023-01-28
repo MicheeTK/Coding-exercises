@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.count-down-timer-container {
+  width: 500px;
+  background-color: #242526;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+#user-input {
+  font-size: 18px;
+  height: 35px;
+  width: 45%;
+  border: none;
+  border-radius: 5px;
+  padding-inline-start: 5px;
+  text-align: center;
+}
+
+.btn {
+  height: 35px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btn:hover,
+.btn:focus {
+  font-weight: 600;
+}
+
+.btn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.display {
+  color: aliceblue;
+  font-size: 50px;
+  margin-block: 35px;
+  background-color: #3a3b3c;
+}

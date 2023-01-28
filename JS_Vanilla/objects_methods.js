@@ -6,7 +6,7 @@ const profile = {
   picture: "insert link",
   fullName: "user fullname",
   bio: "Some information about the user",
-  info: () => {
+  info() {
     //"this" is the correct way but doest work with the arrow function
     return `
           info for: ${this.username}
@@ -32,7 +32,7 @@ const celline = {
   picture: "insert link",
   fullName: "Celline Reuter",
   bio: "Celline is awesome",
-  info: () => {
+  info() {
     return `
           info for: ${this.username}
           Posts: ${this.posts}
@@ -54,7 +54,7 @@ const paul = {
   picture: "insert link",
   fullName: "Paul Tshistshi",
   bio: "Paul is dope",
-  info: () => {
+  info() {
     return `
           info for: ${this.username}
           Posts: ${this.posts}
@@ -76,7 +76,7 @@ const andrea = {
   picture: "insert link",
   fullName: "Andrea Botez",
   bio: "Andrea is hot",
-  info: () => {
+  info() {
     return `
           info for: ${this.username}
           Posts: ${this.posts}

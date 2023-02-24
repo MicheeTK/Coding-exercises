@@ -1,5 +1,7 @@
+const rotateString = document.getElementById("rotate-string");
+
 const stringRotate = (userString) => {
-  userString += " ";
+  userString += "  ";
   let userStringArray;
   let lastLetter;
   const rotate = () => {
@@ -7,10 +9,12 @@ const stringRotate = (userString) => {
     lastLetter = userStringArray.pop();
     userStringArray.unshift(lastLetter);
     userString = userStringArray.join("");
-    console.log(userString);
+    rotateString.innerHTML = userString;
   };
 
-  setInterval(rotate, 1000);
+  setInterval(rotate, 200);
 };
 
-stringRotate("Michee is such a cool guy!");
+stringRotate(
+  "Michee is such a cool guy. Well, at least he believes to be a cool guy!"
+);

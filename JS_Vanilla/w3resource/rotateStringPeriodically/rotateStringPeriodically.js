@@ -1,7 +1,7 @@
 const rotateString = document.getElementById("rotate-string");
 
 const stringRotate = (userString) => {
-  userString += "  ";
+  userString += " ";
   let userStringArray;
   let lastLetter;
   const rotate = () => {
